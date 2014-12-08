@@ -16,20 +16,64 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/* Navigation Section */
+.element.style {
+	margin-left: 14px;
+	height:70px;
+}
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	height: 70px;
+	width: 970px;
+	margin: 0 auto;
+}
+.content {
+	width: 60%;
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+.top-navigation .links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	font-family: 'Open Sans', sans-serif;
+}
+.top-navigation .links li {
+display: inline-block;
+margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+ol, ul {
+list-style: none;
+}
 body {
 	line-height: 1;
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
 }
 ol, ul {
 	list-style: none;
